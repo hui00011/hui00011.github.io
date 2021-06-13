@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+background-color:goldenrod
+}
+.site-title {
+    color:darkblue
+}
