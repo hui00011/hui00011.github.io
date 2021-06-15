@@ -30,6 +30,8 @@ nav ul{
 nav ul a{
     color: darkslategrey;
     text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5 * 16 = 24px */
 }
 
 /* Selecting element with id value */
@@ -38,7 +40,17 @@ nav ul a{
     background: orange url(../images/bread.jpg) no-repeat center center;
     background-size: cover;
 
-    color: white
+    color: white;
+
+    font-size: 1.25rem;
+    /* 1.25 * 16 = 20px */
+    padding: 1em;
+    /* 1 * 20 = 20px */
+
+    /* viewport based unit */
+    /* height: 100vh; */
+
+    width: 50%;
 }
 
 /* Selecting HTML elements with class name */
@@ -59,6 +71,15 @@ article>p {
     line-height: 1.5;
     text-transform: lowercase;
     text-align: center;
+    /* 1em = 24px */
+    /* 
+    html = 20px
+    1 rem = 20px
+    font-size: .5rem; = 10px
+    1em = 10px
+    0.5em = 5px
+    
+    */
 }
 
 /* Adjacent sibling selector */
