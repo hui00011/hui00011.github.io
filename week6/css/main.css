@@ -34,6 +34,7 @@ nav ul a{
 #treatofweek {
     background-color: orange;
 }
+
 /* Selecting HTML elements with class name */
 .orange-link{
     background-color: darkslategrey;
@@ -46,7 +47,12 @@ nav ul a{
 
 /* Direct child selector */
 article>p {
+    /* CSS typography properties */
     font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 /* Adjacent sibling selector */
@@ -154,3 +160,4 @@ article h2 {
 body footer.site-footer {
     background-color: teal;
 }
+
