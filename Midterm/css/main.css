@@ -29,6 +29,7 @@ nav ul {
     list-style: none;
     margin: 0 0;
 }
+
 nav ul li {
     display: inline-block;
     width:33%;   
@@ -82,10 +83,12 @@ textarea {
     width: 99%;
     height: 70px;
 }
+
 #fullname, #youremail {
     width: 99%;
     height: 25px;
 }
+
 form {
     line-height: 30px;
 }
