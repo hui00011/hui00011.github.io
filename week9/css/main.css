@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* ----------------------------------
           Custom Styles
 -------------------------------- */
@@ -67,7 +68,7 @@ body {
 }
 
 .clearfix:after {
-  content: '';
+  content:  '';
   display: table;
   clear: both;
 }
