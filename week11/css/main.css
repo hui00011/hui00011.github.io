@@ -216,6 +216,22 @@ p {
   text-align: right;
 }
 
+/* ------------------------------------------
+   Climate Page Styles
+-------------------------------------- */
+.card {
+  border: 1px solid #00add8;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+.card .info {
+  padding: 1em;
+} 
+.card h3 {
+  margin-top: 0;
+}
+
 /* ------------------------------------
          Desktop Styles
 ------------------------------- */
