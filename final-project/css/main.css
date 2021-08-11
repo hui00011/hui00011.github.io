@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------------------------
+          Custom Styles
+-------------------------------- */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  line-height: inherit;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  /* top left-right bottom */
+  margin: 1em 0 0.5em;
+}
+
+h1 {
+  font-size: 5.063rem;
+}
+
+h2 {
+  font-size: 3.375rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  /* top-bottom left-right */
+  margin: 1em 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+nav {
+  background-color: #222;
+  padding: 1em;
+}
+.logo {
+  background-color: #c78c06;
+}
+
+.nav-list li {
+  display: block;
+  color:#c78c06;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul a {
+  text-decoration: none;
+
+  /* LoVe HAte */
+nav ul a:hover,
+nav ul a:focus,
+nav ul a:current {
+  color: #222;
+  background-color: #c78c06;
+  display: block;
+  }
+
+  /* box-sizing: border-box; */
+/* .banner {
+  height: 600px;
+  background: grey url("../images/mobile-banner.jpg") no-repeat center bottom;
+  background-size: cover;
+}
+
+.banner h1 {
+  margin: 0;
+  padding-top: 250px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+/* .nav-list li { */
+  /* border-bottom: 1px solid grey; 
+  text-align: center;
+/*  */
+
+
+/* Mobile App Section */
+/* .btn {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #00ADD8;
+  color: inherit;
+}
+
+/* Actions Section */
+/* .actions-list { 
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.actions-list li {
+  max-width: 50%;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+/* .site-footer { 
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 2px solid #00ADD8;
+}
+
+.copy {
+  text-align: right;
+}
+
+img {
+  width: 100%;
+}
+
+/* ---------------------------
+    Climate Page Styles
+------------------------------ */
+/* .card { 
+  border: 1px solid #00ADD8;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+.card .info {
+  padding: 1em;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* news section */
+/* .news { 
+  border-top: 2px solid #00ADD8;
+  margin-top: 4em;
+}
+*/
