@@ -51,7 +51,7 @@ table {
           Custom Styles
 -------------------------------- */
 html {
-  font-size: 16px;
+  font-size: 14px;
   box-sizing: border-box;
 }
 
@@ -81,7 +81,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #222;
+  color: inherit;
 }
 
 h1,
@@ -89,29 +89,28 @@ h2,
 h3,
 h4 {
   font-weight: bold;
-  /* top left-right bottom */
-  margin: 1em 0 0.5em;
+  margin: 0em 0.2em 0.2em 0em;
 }
 
 h1 {
-  font-size: 5.063rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 3.375rem;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 2.25rem;
+  font-size: 2rem;
+  margin: 14px;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 p {
-  /* top-bottom left-right */
-  margin: 1em 0;
+  margin: 0em 1em 1em 0em;
 }
 
 .container {
@@ -150,12 +149,219 @@ nav {
   display: block;
 }
 
+/*  Mobile App Section  */
+
 nav input {
-  width: 92%;
-  height: 2.5em;
+  width: 93%;
+  height: 2.6em;
 }
 
 .im-magnifier {
+  padding: 3px 0px;
+}
+
+nav button {
+  margin-left: -5px;
   border-width: 1px;
+  display: inline-block;
+  vertical-align: middle;
   border-color: #c78c06;
+  background-color: #222;
+}
+/* Closing the navigation */
+
+.banner {
+  height: 475px;
+  background: url(../images/main-banner.jpg) no-repeat center center;
+  background-size: cover;
+}
+ 
+.frame {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 465px;
+  height: 365px;
+
+}  
+
+.banner h1 {
+  padding-left: 0.1em;
+  padding-top: 0.5em;
+  color: white;
+
+}
+h1+p {
+  color: white;
+  margin-left: 1em;
+}
+
+.orange {
+  padding: 28px;
+  background-color: #c78c06;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 14px;
+}
+/* Closing Navigation and Banner section */
+
+#about-us {
+  background-color: #ffe6ac;
+  padding-bottom: 1em;
+}
+#about-us h2 {
+  padding-left: 14px;
+}
+.about-us-jpg {
+  width: 100%;
+  padding: 1em;
+}
+/* Closing Our Services section */
+
+.our-services,
+.team,
+.contact {
+ margin: 2em 1em 1em 1em;
+}
+
+.digital-jpg,
+.marketing-jpg,
+.video-jpg,
+.web-jpg,
+.print-jpg,
+.john-jpg,
+.bob-jpg {
+  width: 100%;
+}
+
+.digital,
+.marketing,
+.video,
+.web,
+.print,
+.john,
+.bob {
+  background-color: #ffe6ac;
+}
+
+p {
+  margin-left: 1em;
+}
+
+.bb {
+  margin-left: 14px;
+  margin-bottom: 14px;
+  display: inline-block;
+  background-color: #222;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+/* LoVe HAte */ 
+.content a,
+.content a:link,
+.content a:visited {
+  color: white;
+}
+.im-care-right {
+padding: 12px;
+}
+
+.marketing,
+.video,
+.web,
+.print,
+.john,
+.bob {
+  margin-top: 1em;
+}
+/* Closing services part */
+
+.vision {
+  height: 250px;
+  background: url(../images/vision.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+.vision h3 {
+  padding-top: 1em;
+}
+.vision p{
+  padding-bottom: 8px;
+}
+.dbb {
+  margin-left: 14px;
+  margin-bottom: 14px;
+  background-color:rgb(21, 27, 53);
+  text-align: center;
+  padding: 28px;
+  font-size: 18px;
+  color:white;
+  text-decoration: none;
+  border: 1px solid #c78c06;
+}
+/* Closing our vision section */
+
+.team p {
+  padding-bottom: 2em;
+  padding-left: 4px;
+}
+h4 {
+  margin:-1.5em 1.2em 1em;
+  border-bottom:2px solid #c78c06;
+}
+/* Closing our team section */
+
+.contact h3 {
+  margin-left: 0em;
+}
+
+#fullname,
+#email {
+  width: 100%;
+  height: 28px;
+  margin-bottom: 6px;
+}
+
+#message {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.message button {
+  background-color: #222;
+  color: #c78c06;
+}
+/* Styling a table */
+table th:nth-child(n),
+table td:nth-child(n) {
+  border: 1px solid #000;
+}
+table {
+  width: 100%;
+  height:7em ;
+}
+th,
+td {
+  height:40px;
+  vertical-align: middle;
+}
+th{
+  background-color: #ffe6ac;
+}
+td {
+  padding-left: 1em;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+/* Closing contact us & Body section*/
+
+footer {
+  background-color: #222;
+  color: #c78c06;
+  padding-top: 30px;
+  padding-bottom: 1px;
 }
