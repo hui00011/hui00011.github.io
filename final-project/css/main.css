@@ -421,7 +421,7 @@ nav input {
   display: grid;
   column-gap: 1em;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr); 
+  grid-template-rows: 1fr 0.8fr; 
 }
 .digital {
   grid-column: 1/4;
