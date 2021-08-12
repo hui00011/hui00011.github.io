@@ -448,12 +448,13 @@ nav input {
 .bb {
   width: 92%;
 }
-
+/* Our Vision */
 .vision {
   margin-top: 2em;
   padding-left: 86px;
   padding-right: 86px;
 }
+/* Our Team */
 .team,
 .contact,
 footer p {
@@ -476,7 +477,7 @@ footer p {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-
+/* Contact Us */
 .cc {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
